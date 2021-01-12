@@ -1,0 +1,148 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name='viewport' content="width=device-width, initial-scale=1.0">
+ 	<title>Moses Portfolio Website</title>
+ 	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+ 	<!--css normalizing cdn-->
+ 	<link rel="stylesheet" type="text/css" href="css/normalize">
+ 	<!--font awesome cdn-->
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A==" crossorigin="anonymous"/>
+ 	<!--Google fonts cdn-->
+ 	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;900&family=Source+Sans+Pro:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+
+ 	<header>
+ 		<div class="logo">
+ 			<img src="" alt="">
+ 		</div>
+ 		<button class="nav-toggle" aria-label="toggle navigation">
+ 			<span class="navigation"></span>
+ 		</button>
+ 		<nav class="nav">
+ 			<ul class="nav__list">
+ 				<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+ 				<li class="nav__item"><a href="#services" class="nav__link">My Services</a>
+ 				</li>
+ 				<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+ 				<li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+ 			</ul>
+ 		</nav>
+ 	</header>
+
+ 	<!--Introduction-->
+ 	<section class="intro" id="home">
+ 		<h1 class="section__title section__title--intro">
+ 			Hi, I am <strong>Moses Odunosho</strong>
+ 		</h1>
+ 		<p class="section__subtitle section__subtitle--intro">Full-stack dev</p>
+ 		<img src="img/devmoscode.jpg" alt="Moses picture" class="img--intro">
+ 	</section>
+
+ 	<!--My Services-->
+ 	<section class="my-services" id="services">
+ 		<h2 class="section__title section__title--services">What I do</h2>
+ 		<div class="services">
+ 			<!-- first service -->
+ 			<div class="service">
+ 				<h3>Website Design</h3>
+ 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan eros non quam tristique consequat. In hac habitasse platea dictumst. Suspendisse potenti. Morbi nibh mauris, scelerisque vel tincidunt bibendum, sagittis luctus ante. Suspendisse ultricies velit vitae semper sagittis. Vestibulum non sem efficitur, elementum magna a, luctus mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+ 			</div>
+ 			<!-- second service -->
+ 			<div class="service">
+ 				<h3>E-Commerce</h3>
+ 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan eros non quam tristique consequat. In hac habitasse platea dictumst. Suspendisse potenti. Morbi nibh mauris, scelerisque vel tincidunt bibendum, sagittis luctus ante. Suspendisse ultricies velit vitae semper sagittis. Vestibulum non sem efficitur, elementum magna a, luctus mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+ 			</div>
+ 			<!-- third service -->
+ 			<div class="service">
+ 				<h3>WordPress + Blogger</h3>
+ 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan eros non quam tristique consequat. In hac habitasse platea dictumst. Suspendisse potenti. Morbi nibh mauris, scelerisque vel tincidunt bibendum, sagittis luctus ante. Suspendisse ultricies velit vitae semper sagittis. Vestibulum non sem efficitur, elementum magna a, luctus mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+ 			</div>
+ 		</div>
+
+ 		<a href="#work" class="btn">My Work</a>
+ 	</section>
+
+ 	<!--About Me-->
+
+ 	<section class="about-me" id="about">
+ 		<h2 class="section__title section__title--about">Who I am</h2>
+ 		<p class="section__subtitle section__subtitle--about">
+        Web designer and developer based in Lagos, Nigeria.
+        </p>
+ 		
+
+ 		<div class="about-me--body">
+ 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan eros non quam tristique consequat. In hac habitasse platea dictumst. Suspendisse potenti.</p>
+ 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan eros non quam tristique consequat. In hac habitasse platea dictumst. Suspendisse potenti.</p>
+ 		</div>
+
+ 		<img src="img/devmoscode.jpg" alt="Moses picture" class="about-me--img">
+ 	</section>
+
+ 	<!--My Work-->
+ 	<section class="my-work" id="work">
+ 		<h2 class="section__title section__title--work">My Work</h2>
+ 		<p class="section__subtitle section__subtitle--work">A selection of my work</p>
+
+ 		<div class="portfolio">
+ 			<!--portfolio item 01-->
+ 			<a href="#" class="portfolio__item">
+ 				<img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+ 			</a>
+ 			<!--portfolio item 02-->
+ 			<a href="#" class="portfolio__item">
+ 				<img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+ 			</a>
+ 			<!--portfolio item 03-->
+ 			<a href="#" class="portfolio__item">
+ 				<img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+ 			</a>
+ 			<!--portfolio item 04-->
+ 			<a href="#" class="portfolio__item">
+ 				<img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+ 			</a>
+ 			<!--portfolio item 05-->
+ 			<a href="#" class="portfolio__item">
+ 				<img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+ 			</a>
+ 		</div>
+ 	</section>
+
+ 	<!--Footer-->
+ 	<footer class="footer">
+ 		<a href="mailto:odunoshomoses@gmail.com" class="footer__link">
+ 		odunoshomoses@gmail.com
+ 		</a>
+ 		<ul class="social-list">
+ 			<li class="social-list__item">
+ 				<a href="https://twitter.com" class="social-list__link">
+ 					<i class="fab fa-twitter-square"></i>
+ 				</a>
+ 			</li>
+ 			<li class="social-list__item">
+ 				<a href="https://linkin.com" class="social-list__link">
+ 					<i class="fab fa-linkedin"></i>
+ 				</a>
+ 			</li>
+			<li class="social-list__item">
+				<a href="https://github.com" class="social-list__link">
+					<i class="fab fa-github"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a href="https://codepen.io" class="social-list__link">
+					<i class="fab fa-codepen"></i>
+				</a>
+			</li>
+ 		</ul>
+ 	</footer>
+
+ 	<script type="text/javascript" src="js/index.js">
+ 	</script>
+
+ </body>
+ </html>
